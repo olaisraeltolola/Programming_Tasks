@@ -15,13 +15,13 @@ int smallest = numberOne;
 if (numberOne > numberTwo)
 smallest = numberTwo;
 
-int lcm = smallest;
-while (lcm >= smallest){
-if (lcm % numberOne == 0 && lcm % numberTwo == 0)
+int index = smallest;
+while (index >= smallest){
+if (index % numberOne == 0 && index % numberTwo == 0)
 break;
 else
-lcm++;
+index++;
 }
-System.out.print(lcm);		
+System.out.print(index);		
 }
 }

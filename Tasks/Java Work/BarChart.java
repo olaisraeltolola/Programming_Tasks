@@ -3,20 +3,20 @@ import java.util.Scanner;
 		public static void main(String[] args){
 		Scanner input = new Scanner(System.in);	
 		
-	System.out.println("Enter the number (1-30): ");
-		int numberOne = input.nextInt();
+System.out.println("Enter the number (1-30): ");
+	int numberOne = input.nextInt();
 
-	System.out.println("Enter the number (1-30): ");
-		int numberTwo = input.nextInt();
+System.out.println("Enter the number (1-30): ");
+	int numberTwo = input.nextInt();
 
-	System.out.println("Enter the number (1-30): ");
-		int numberThree = input.nextInt();
+System.out.println("Enter the number (1-30): ");
+	int numberThree = input.nextInt();
 
-	System.out.println("Enter the number (1-30): ");
-		int numberFour = input.nextInt();
+System.out.println("Enter the number (1-30): ");
+	int numberFour = input.nextInt();
 
-	System.out.println("Enter the number (1-30): ");
-		int numberFive = input.nextInt();
+System.out.println("Enter the number (1-30): ");
+	int numberFive = input.nextInt();
 
 	for (int num = 1; num <= numberOne; num++){
 	System.out.print("*");

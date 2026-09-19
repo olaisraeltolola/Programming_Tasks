@@ -1,8 +1,7 @@
 import java.util.Scanner;
-	
-public class LCMOfTwoNumbers{
-	public static void main(String[] args){
-	Scanner input = new Scanner(System.in);
+	public class HCFOfTwoNumbers{
+		public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
 
 System.out.println("Enter the first number");
 int numberOne = input.nextInt();
@@ -15,13 +14,14 @@ int smallest = numberOne;
 if (numberOne > numberTwo)
 smallest = numberTwo;
 
-int lcm = smallest;
-while (lcm >= smallest){
-if (lcm % numberOne == 0 && lcm % numberTwo == 0)
+int hcf = smallest;
+while(hcf >= 2){
+if (numberOne % hcf == 0 && numberTwo % hcf == 0){
 break;
-else
-lcm++;
 }
-System.out.print(lcm);		
+else
+hcf--;
+}
+System.out.println(hcf);
 }
 }
