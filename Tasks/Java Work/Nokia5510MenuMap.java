@@ -12,21 +12,21 @@ To access any of the menu functions:
 
 Press 
 
-1. For Phonebook
-2. For Messages
-3. For Chat
-4. For Call register
-5. For Tones
-6. For Settings
-7. For Call divert
-8. For Music
-9. For Games
-10. For Calculator
-11. For Reminders
-12. For Clock
-13. For Profiles
-14. For Services
-15. For SIM Services 
+1. Phonebook
+2. Messages
+3. Chat
+4. Call register
+5. Tones
+6. Settings
+7. Call divert
+8. Music
+9. Games
+10. Calculator
+11. Reminders
+12. Clock
+13. Profiles
+14. Services
+15. SIM Services 
 
 
  """;
@@ -44,17 +44,17 @@ String phonebookMenu = """
 
 Press
 
-1. To Search
-2. For Service Nos.
-3. To Add name
-4. To Erase
-5. To Edit
-6. To Copy
-7. To Assign Tone
-8. To Send b'card
-9. To see Options
-10. For Speed dials
-11. For Voice tags 
+1. Search
+2. Service Nos.
+3. Add name
+4. Erase
+5. Edit
+6. Copy
+7. Assign Tone
+8. Send b'card
+9. Options
+10. Speed dials
+11. Voice tags 
 
 
 """;
@@ -69,9 +69,9 @@ Press
 
 Press
 
-1. For Memory in use
-2. For Type of view
-3. For Memory status  
+1. Memory in use
+2. Type of view
+3. Memory status  
 
 """;
 
@@ -90,16 +90,16 @@ String messageMenu = """
 
 Press 
 
-1. To write messages
-2. To go to inbox
-3. To go to outbox
-4. To go to picture messages
-5. To go to templates
-6. To go to Smileys
-7. To go to Message settings
-8. To go to Info service
-9. For Voice mailbox number
-10. For Serve command editor
+1. Write messages
+2. Inbox
+3. Outbox
+4. Picture messages
+5. Templates
+6. Smileys
+7. Message settings
+8. Info service
+9. Voice mailbox number
+10. Serve command editor
 
 """;
 
@@ -112,8 +112,8 @@ String messageSettingsMenu = """
 
 Press
 
-1. For Set 1
-2. For Common
+1. Set 1
+2. Common
 
 """;
 
@@ -126,9 +126,9 @@ String optionsUnderSet1 = """
 
 Press
 
-1. For Message centre number
-2. For Messages sent as
-3. For Message validity
+1. Message centre number
+2. Messages sent as
+3. Message validity
 
 """;
 
@@ -140,9 +140,9 @@ String optionsUnderCommon = """
 
 Press
  
-1. For Delivery reports
-2. For Reply via same centre
-3. For Character support
+1. Delivery reports
+2. Reply via same centre
+3. Character support
 
 """;
 
@@ -164,14 +164,14 @@ String callRegisterMenu = """
 
 Press
 
-1. For Missed calls
-2. For Received calls
-3. For Dialled numbers
-4. To Erase recent call lists
-5. To show call duration
-6. To show call costs
-7. To go to Call cost settings
-8. For prepaid credit
+1. Missed calls
+2. Received calls
+3. Dialled numbers
+4. Erase recent call lists
+5. Show call duration
+6. Show call costs
+7. Call cost settings
+8. Prepaid credit
 
 """;
 
@@ -183,11 +183,11 @@ Press
 String optionsUnderCallDuration = """
 
 Press
-1. For Last call duration
-2. For All calls' duration
-3. For Received calls' duration
-4. For Dialled calls' duration
-5. To clear timers
+1. Last call duration
+2. All calls' duration
+3. Received calls' duration
+4. Dialled calls' duration
+5. Clear timers
 
 """;
 
@@ -198,9 +198,9 @@ Press
 String optionsUnderCallCosts = """
 
 Press
-1. For Last call cost
-2. For All calls' cost
-3. To clear counters
+1. Last call cost
+2. All calls' cost
+3. Clear counters
 
 """;
 
@@ -212,8 +212,8 @@ Press
 String optionsUnderCallCostSettings = """
 
 Press
-1. For Call cost limit
-2. To show costs in
+1. Call cost limit
+2. Show costs in
 
 """;
 
@@ -229,14 +229,14 @@ String tonesMenu = """
 
 Press
 
-1. For Ringing tone
-2. For Ringing volume
-3. For Incoming call alert
-4. For message alert tone
-5. For Keypad tones
-6. For Warning tones
-7. For Vibrating alert
-8. For Screen saver
+1. Ringing tone
+2. Ringing volume
+3. Incoming call alert
+4. Message alert tone
+5. Keypad tones
+6. Warning tones
+7. Vibrating alert
+8. Screen saver
 
 """;
 
@@ -248,10 +248,10 @@ String settingsMenu = """
 
 Press
 
-1. To go to Call settings
-2. To go to Phone settings
-3. To go to Security settings
-4. To go to Restore factory settings
+1. Call settings
+2. Phone settings
+3. Security settings
+4. Restore factory settings
 
 """;
 
@@ -264,12 +264,12 @@ String optionsUnderCallSettings = """
 
 Press
 
-1. For automatic redial
-2. For Speed dialling
-3. For Call waiting options
-4. For Own number sending
-5. For Phone line in use
-6. For Automatic answer
+1. Automatic redial
+2. Speed dialling
+3. Call waiting options
+4. Own number sending
+5. Phone line in use
+6. Automatic answer
 
 """;
 
@@ -282,11 +282,11 @@ String optionsUnderPhoneSettings = """
 
 Press
 
-1. For Language
-2. For Cell info display
-3. For Welcome note
-4. For Network selection
-5. To Confirm SIM service actions
+1. Language
+2. Cell info display
+3. Welcome note
+4. Network selection
+5. Confirm SIM service actions
 
 """;
 
@@ -299,12 +299,12 @@ String optionsUnderSecuritySettings = """
 
 Press
 
-1. For PIN code request
-2. For Call barring service
-3. For Fixed dialling
-4. For Closed user group
-5. For Security level
-6. To Change access codes
+1. PIN code request
+2. Call barring service
+3. Fixed dialling
+4. Closed user group
+5. Security level
+6. Change access codes
 
 """;
 
@@ -321,10 +321,10 @@ String musicMenu = """
 
 Press
 
-1. To go to Music player
-2. To go to Radio
-3. To go to Recorder
-4. To go to Track list
+1. Music player
+2. Radio
+3. Recorder
+4. Track list
 
 """;
 
@@ -339,12 +339,12 @@ String clockMenu = """
 
 Press
 
-1. For Alarm clock
-2. For Clock settings
-3. For Date setting
-4. For Stopwatch
-5. For Countdown timer
-6. For Auto update of date and time
+1. Alarm clock
+2. Clock settings
+3. Date setting
+4. Stopwatch
+5. Countdown timer
+6. Auto update of date and time
 
 """;
 
