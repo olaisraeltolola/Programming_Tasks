@@ -1,3 +1,4 @@
+
 print("number\tsquare\tcube")
 
 for number in range (6):
