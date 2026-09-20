@@ -398,6 +398,7 @@ Press
 
 			switch(functionsUnderSettingsMenu){
 				case 0 -> {break;}
+				case 4 -> {repeat = False;}
 				case 1 -> {
 String optionsUnderCallSettings = """
 
