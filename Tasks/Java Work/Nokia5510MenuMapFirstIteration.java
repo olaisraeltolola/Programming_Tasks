@@ -1,5 +1,5 @@
 import java.util.Scanner;
-	public class Nokia5510MenuMap{
+	public class Nokia5510MenuMapFirstIteration{
 		public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
 
@@ -42,6 +42,7 @@ int menuChoice = input.nextInt();
 
 String phonebookMenu = """
 
+--PHONEBOOK--
 Press
 
 1. Search
@@ -67,6 +68,7 @@ Press
 			case 9 -> {
 		String optionsMenu = """
 
+--OPTIONS--
 Press
 
 1. Memory in use
@@ -88,6 +90,7 @@ Press
 	case 2 -> {
 String messageMenu = """
 
+--MESSAGES--
 Press 
 
 1. Write messages
@@ -110,6 +113,7 @@ Press
 			case 7 -> {
 String messageSettingsMenu = """
 
+--MESSAGE SETTINGS--
 Press
 
 1. Set 1
@@ -124,6 +128,7 @@ Press
 			case 1 -> {
 String optionsUnderSet1 = """
 
+--SET 1--
 Press
 
 1. Message centre number
@@ -138,6 +143,7 @@ Press
 			case 2 -> {
 String optionsUnderCommon = """
 
+--COMMON--
 Press
  
 1. Delivery reports
@@ -162,6 +168,7 @@ Press
 	case 4 -> {
 String callRegisterMenu = """
 
+--CALL REGISTER--
 Press
 
 1. Missed calls
@@ -182,6 +189,7 @@ Press
 			case 5 -> {
 String optionsUnderCallDuration = """
 
+--CALL DURATION--
 Press
 1. Last call duration
 2. All calls' duration
@@ -197,6 +205,7 @@ Press
 			case 6 -> {
 String optionsUnderCallCosts = """
 
+--CALL COSTS--
 Press
 1. Last call cost
 2. All calls' cost
@@ -211,6 +220,7 @@ Press
 			case 7 -> {
 String optionsUnderCallCostSettings = """
 
+--CALL COST SETTINGS--
 Press
 1. Call cost limit
 2. Show costs in
@@ -227,6 +237,7 @@ Press
 	case 5 -> {
 String tonesMenu = """
 
+--TONES--
 Press
 
 1. Ringing tone
@@ -246,6 +257,7 @@ Press
 	case 6 -> {
 String settingsMenu = """
 
+--SETTINGS--
 Press
 
 1. Call settings
@@ -262,6 +274,7 @@ Press
 			case 1 -> {
 String optionsUnderCallSettings = """
 
+--CALL SETTINGS--
 Press
 
 1. Automatic redial
@@ -280,6 +293,7 @@ Press
 			case 2 -> {
 String optionsUnderPhoneSettings = """
 
+--PHONE SETTINGS--
 Press
 
 1. Language
@@ -297,6 +311,7 @@ Press
 			case 3 -> {
 String optionsUnderSecuritySettings = """
 
+--SECURITY SETTINGS--
 Press
 
 1. PIN code request
@@ -319,6 +334,7 @@ Press
 	case 8 -> {
 String musicMenu = """
 
+--MUSIC--
 Press
 
 1. Music player
@@ -337,6 +353,7 @@ Press
 	case 12 -> {
 String clockMenu = """
 
+--CLOCK--
 Press
 
 1. Alarm clock
