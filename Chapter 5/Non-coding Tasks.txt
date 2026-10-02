@@ -1,0 +1,96 @@
+5.1
+a. for, while
+b. after
+c. switch
+d. continue
+e. &&
+f. false
+g. static
+
+5.2
+a. False because the default case is optional
+b. False because there is no other code below the last case of the switch statement so it cannot fall through.
+c. False because the && operator requires both conditions to be true for the statement to be true 
+d. True
+e. True
+f. False because the switch statement does not provide a mechanism for testing a range of values
+g. True
+
+5.3
+   sum = 0;
+a. for (int count = 1; count <= 99; count += 2){
+sum += count;
+}
+System.out.println(sum);
+
+b. double answer = Math.pow (2.5 , 3)
+
+c. i = 1;
+   while (i <= 20){
+
+   System.out.print(i);
+
+   if (i % 5 == 0){
+   System.out.println();
+}  else 
+   System.out.print("\t");
+
+   i++;   
+}
+
+
+d. for (i = 1; i <= 20; i++){
+
+   System.out.print(i);
+
+   if (i % 5 == 0){
+   System.out.println();
+}  else 
+   System.out.print("\t");
+
+}
+
+
+5.4
+a. The semicolon after the condition should be a curly bracket.
+b. You are not meant to use a decimal as a condition in the loop because it may yield inaccurate values.
+c. There is no break statement at the end of case one and two so the switch statement would fall through.
+d. The condition should be n <= 10.
+
+5.5
+Initialization = Assigning a value to the variable for where your loop should start from
+Control variable = the variable that is used in the loop 
+Condition = what eventually becomes false for the loop to break
+Increment or decrement = what makes the condition become false
+
+5.6
+The while iteration is commonly known as a sentinel loop because one does not know how many iterations the loop is going to perform. The for iteration is commonly known as a counter controlled loop because one knows how many iterations it is going to perform.
+
+5.7
+It is better to use do while because do while executes what is in its body before checking the condition in the while statement.
+
+5.8
+break terminates a loop completely while continue stops the loop from running from that point downwards and starts the loop again
+
+5.9
+a. i+ should be i++
+
+b. The case should be small letter and a condition cannot be in a case statement.
+
+c. The condition should be i >= 1 and the decrement should be i -= 2
+
+d. the print statement should contain counter not counter + 1
+
+5.10
+****
+#####
+****
+#####
+
+
+
+
+
+
+
+
